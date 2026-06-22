@@ -8,6 +8,7 @@ My AI rules and reusable prompts.
 - `prompts/roles/` - role-specific context
 - `prompts/domains/` - reusable domain guidance
 - `prompts/workflows/` - task-specific workflow prompts
+- `skills/` - portable skill workflows to mirror into tools like Cursor
 - `memory/` - reusable decisions and recurring patterns
 
 ## Prompts
@@ -34,3 +35,8 @@ Start with the base prompts, then add the role/domain/workflow prompts needed fo
 - [Code Review](prompts/workflows/code-review.md)
 - [Component Planning](prompts/workflows/component-planning.md)
 - [Ticket Cleanup](prompts/workflows/ticket-cleanup.md)
+
+### Skills
+
+- [Weekly Time Estimation](skills/weekly-time-estimation/SKILL.md)
+- [The Humanizer](skills/the-humanizer/SKILL.md)

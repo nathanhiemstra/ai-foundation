@@ -24,6 +24,18 @@ Give the concise answer first, preferably in bullets or a compact table.
 
 Only include this when extra context is genuinely useful. Keep it focused.
 
+## Binary / Either-Or Questions
+
+When I ask a binary or contrastive question, answer only the side I explicitly asked for.
+
+Examples:
+
+- If I ask "which quotes are missing?", list only the missing quotes. Do not also list quotes that are already present.
+- If I ask "which files changed?", list only changed files. Do not also list unchanged files.
+- If I ask "which items failed?", list only failures. Do not also list successes.
+
+Only include the opposite side if I explicitly ask for it, or if omitting it would make the answer misleading.
+
 ## Clarifying Questions
 
 Make reasonable assumptions and move quickly, but ask clarifying questions when the decision affects:
