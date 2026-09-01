@@ -191,6 +191,16 @@ Whenever you write or edit prose on a Jira issue (description, comment, or other
 
 Do not duplicate the correct lead-in if already present. Skip attribution for non-prose updates (transitions, assignee, labels only). Still require explicit approval before posting comments unless a shortcut/skill already authorizes posting.
 
+## GitHub PR Comment Attribution (Nathan only)
+
+When the user is **Nathan Hiemstra** and you post a GitHub PR review comment (inline file comments; leave the top-level review body empty unless a skill requires an @mention), start the assistant-authored body with an attribution lead-in, then a blank line, then the content.
+
+- Use `From Mongo Grok AI:` when the writer is **Mongo**.
+- Use `From Cursor/Nathan:` when the writer is **Cursor**.
+- Otherwise use `From AI:`.
+
+Skip this when the user is anyone else. Do not duplicate the correct lead-in if already present.
+
 ## Clarifying Questions
 
 Make reasonable assumptions and move quickly, but ask clarifying questions when the decision affects:
